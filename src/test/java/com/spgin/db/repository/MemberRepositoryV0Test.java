@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MemberRepositoryV0Test {
     
     MemberRepositoryV0 repository = new MemberRepositoryV0();
+    MemberRepositoryV1 repositoryV1;
     
     @Test
     void save() throws SQLException {
